@@ -180,3 +180,13 @@ footer a { color: var(--creme); }
   .accueil-texte, .accueil-photo { min-width: 0; }
   .surtitre { letter-spacing: .14em; }
 }
+
+/* Consultation Boussole */
+.boussole { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; margin-top: 34px; padding: 30px 32px; border-radius: 20px; background: linear-gradient(180deg, #f3eee3 0%, #e9efe4 100%); box-shadow: var(--ombre); }
+.boussole h3 { font-family: var(--serif); color: var(--vert); font-size: 24px; margin: 0 0 10px; }
+.boussole p { margin: 0 0 10px; }
+.boussole-note { font-size: 16px; color: var(--texte-doux); }
+.boussole-prix { text-align: center; }
+.boussole-prix .prix { color: var(--vert); margin: 0 0 4px; }
+.boussole-prix p { margin: 0 0 16px; color: var(--texte-doux); }
+@media (max-width: 820px) { .boussole { grid-template-columns: 1fr; padding: 26px 22px; } .boussole-prix { text-align: left; } }
