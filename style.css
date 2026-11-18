@@ -120,7 +120,7 @@ h2 { font-family: var(--serif); color: var(--vert); font-size: clamp(27px, 3.6vw
 
 /* À propos */
 .apropos { display: grid; grid-template-columns: 320px 1fr; gap: 42px; align-items: start; }
-.apropos img { border-radius: 18px; aspect-ratio: 4 / 5; object-fit: cover; object-position: 30% 20%; width: 100%; height: auto; }
+.apropos img { border-radius: 18px; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; width: 100%; height: auto; }
 .signature { font-family: var(--serif); font-style: italic; color: var(--vert); font-size: 19px; margin-top: 18px; }
 
 /* Pied de page */
